@@ -1,0 +1,28 @@
+.Header{
+    font-size: 60px; 
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.Sub-Heading{
+    font-size: 30px; 
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+ 
+.main{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 17px;
+    gap: 145px;
+    display: flex;
+    align-items:center;
+    padding-left: 145px;
+}
+
+.main img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(0, 255, 255);
+}
